@@ -20,13 +20,13 @@ namespace StringMirror
 
             Stack<char> stack = new Stack<char>();
 
-
+            //beide strings durchgehen und gespiegelte anordnung vergleichen
             for (int i = 0; i < str1.Length; i++)
             {
                 stack.Push(str1[i]);
             }
 
-        
+            //überprüfe, ob die buchstaben im umgekehrten array in str2 vorhanden sind
             for (int i = 0; i < str2.Length; i++)
             {
                 if (str2[i] != stack.Pop())
