@@ -7,11 +7,11 @@ namespace StringMirror
     {
         public static void Main()
         {
-            Console.WriteLine(StringMirrored("bla", "alb"));       //output: 0
-            Console.WriteLine(StringMirrored("blebla", "a2balb")); //output: 3
+            Console.WriteLine(MirroredString("bla", "alb"));       //output: 0
+            Console.WriteLine(MirroredString("blebla", "a2balb")); //output: 3
         }
 
-        public static int StringMirrored(string str1, string str2)
+        public static int MirroredString(string str1, string str2)
         {
             if (str1.Length != str2.Length)
             {
