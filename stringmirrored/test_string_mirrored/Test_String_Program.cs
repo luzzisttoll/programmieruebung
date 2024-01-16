@@ -7,7 +7,7 @@ namespace test_string_mirrored
     {
         [Test]
         public static void TestMirroredString_IdenticalStrings_ReturnsZero()
-        
+        { 
             string str1 = "bla";
             string str2 = "alb";
 
